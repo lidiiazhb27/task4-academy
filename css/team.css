@@ -1,0 +1,127 @@
+@import url(reset.css);
+.content_team{
+    background-color: #EAEBED;
+    width: 1700px;
+    height: 800px;
+    margin: 0 37px 51px;
+    border-radius: 30px;
+    font-family: "ChronicaPro";
+}
+.images_1{
+    height: 381px;
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.ph_1{
+    width: 300px;
+    height: 290px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-top: 56px;
+}
+.ph_1::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    border-radius: 20px;
+}
+.ph_1:hover:after{
+    width: 82px;
+    height: 76px;
+    background-image: url(../images_/trash_b.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -46px 0 0 -40px;
+}
+.ph_1:hover span{
+    color: white;
+}
+.ph_1:hover{
+    background-color: #2785F7;
+}
+.images_2{
+    height: 325px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.photo_1{
+    width: 300px;
+    height: 278px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.photo_1:hover span{
+    color: white;
+}
+.photo_1:hover{
+    background-color: #2785F7;
+}
+.photo-1{
+    margin: 30px 102px 0 98px;
+}
+.ph-1-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.name-1{
+    margin: 11px 30px 0 38px;
+    text-align: center;
+    width: 232px;
+    height: 64px;   
+}
+.andy_cube{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.logos_it_ac{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #C5C5C5;
+}
+.data-1{
+    margin: 28px 46px 27px 39px;
+    text-align: center;
+}
+.data-1-txt{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #C5C5C5;
+}
+.photo{
+    margin: 20px 101px 0 91px;
+}
+.name{
+    margin: 10px 30px 0;
+    text-align: center;
+    width: 232px;
+    height: 64px; 
+}
+.data{
+    margin-top: 28px;
+    text-align: center;
+}

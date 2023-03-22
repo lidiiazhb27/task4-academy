@@ -1,0 +1,133 @@
+@import url(reset.css);
+.content_lessons{
+    background-color: #EAEBED;
+    width: 1700px;
+    height: 800px;
+    margin: 0 37px 51px;
+    border-radius: 30px;
+    font-family: "ChronicaPro";
+}
+.one{
+    margin-left: 295px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.header{
+    width: 138px;
+    height: 40px;
+    margin: 138px 100px 0 0;
+    text-align: center;
+}
+.header_d{
+    width: 138px;
+    height: 40px;
+    margin-top: 138px;
+    text-align: center;
+}
+.two{
+    height: 380px;
+    margin-left: 220px;
+}
+.null{
+    height: 40px;
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.null:hover{
+    background-color: white;
+    width: 1194px;
+    height: 65px;
+    margin-bottom: -13px;
+    align-items: center;
+    margin-top: 45px;
+    border-radius: 21px;
+}
+.checkbox{
+    margin-right: 165px;
+}
+.t_01{
+    width: 138px;
+    height: 40px;
+    margin-right: 103px;
+    text-align: center;
+    margin-left: 126px;
+}
+.html_b1{
+    width: 150px;
+    height: 40px;
+    margin-right: 100px;
+    text-align: center;
+}
+.date_01{
+    width: 138px;
+    height: 40px;
+    margin-right: 141px;
+    text-align: center;
+}
+.txt_property{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #323232;
+}
+.size_load{
+    width: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.load_test{
+    background-image: url(../images_/download.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    border: #767676 solid 2px;
+    border-radius: 10px;
+}
+.check-box{
+    display: block;
+    position: relative;
+    font-size: 20px;
+}
+input[type=checkbox] {
+    visibility: hidden;
+}
+.check-class{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    background-color: white;
+    border: 1px solid #767676;
+    border-radius: 11px;
+    display: block;
+    margin-left: 130px;
+}
+input:checked + .check-class {
+    background-color: #2684F7;
+}
+.check-class:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+input:checked + .check-class:after {
+    display: block;
+}
+.check-class:after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

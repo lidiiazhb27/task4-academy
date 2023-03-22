@@ -1,0 +1,422 @@
+@import url(reset.css);
+.container{
+    width: 1700px;
+    min-height: 500px;
+    background-color: #FEFEFE;
+    margin: auto;
+    font-family: "ChronicaPro";
+}
+.content{
+    background-color: #EAEBED;
+    width: 1700px;
+    height: 800px;
+    margin: 0 18px 44px;
+    border-radius: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    left: 477px;
+    top: 54px;
+}
+.block{
+    width: 486px;
+    height: 44px;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 32px;
+}
+.margin1{
+    margin-right: 69px;
+}
+.margin3{
+    margin-left: 69px;
+}
+.menu-link{
+    width: 116px;
+    height: 44px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+}
+.menu-link:hover{
+    color: #2785F7;     
+}
+.menu-active{
+    color: #2785F7; 
+}
+.blocks2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.column{
+    height: 420px;
+    width: 105px;
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    margin: 171px 0 135px 23px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.sec_one{
+    width: 1570px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.project{
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    width: 735px;
+    height: 130px;
+    margin: 80px 37px 0 30px;
+}
+.company{
+    background-color: #FEFEFE;
+    border-radius: 30px;
+    width: 735px;
+    height: 130px;
+    margin-right: 34px;
+    margin-top: 80px;
+}
+.sec_two{
+    height: 615px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.twice{
+    height: 516px;
+    width: 1057px;
+}
+.description{
+    height: 250px;
+    width: 1027px;
+    border-radius: 30px;
+    background-color: #FEFEFE;
+    margin: 34px 0 22px 30px;
+}
+.team{
+    height: 250px;
+    width: 1027px;
+    border-radius: 30px;
+    background-color:#FEFEFE;
+    margin: 0 0 72px 30px;
+}
+.data_portability{
+    width: 447px;
+    height: 523px;
+    border-radius: 30px;
+    background-color:#FEFEFE;
+    margin: 34px 34px 72px 33px;
+}
+.text_prj{
+    width: 129px;
+    height: 66px;
+    margin: 32px 421px 32px 42px;
+}
+.prj_name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+}
+.html_css_txt{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.text_company{
+    width: 227px;
+    height: 66px;
+    margin: 32px 421px 32px 42px;
+}
+.company_com{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+}
+.company_logos{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.text_descr{
+    width: 980px;
+    height: 126px;
+    padding: 60px 66px 34px 42px;
+}
+.descr_descr{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+.descr_lorem{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #B1B1B1;
+}
+.for_team_block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.team_p{
+    width: 120px;
+    height: 138.26px; 
+}
+.team_txt{
+    width: 790px;
+    height: 97px;
+}
+.team_img{
+    margin: 50px 49px 27.74px 42px;
+}
+.team_txt{
+    margin: 50px 26px 63px 0;
+}
+.team_team{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+.team_lorem{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #B1B1B1;
+}
+.for_data_block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.size-data{
+    width: 120px;
+    height: 115.32px;
+}
+.data-pho{
+    margin: 34px 285px 0 42px;
+}
+.data-txt{
+    margin: 24.68px 39px 38px 42px;
+}
+.data-data{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+.data-lorem{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    color: #B1B1B1;
+}
+.folder{
+    margin: 20px 20px 10px;
+    background-color: #2785F7;
+    width: 67px;
+    height: 62px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.folder::after{
+    content: "Project";
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    font-size: 22px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+.folder:hover::after{
+    width: 100px;
+    left: 55px;
+    z-index: 1;
+}
+.monitor{
+    margin: 10px 20px;
+    width: 67px;
+    height: 62px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.monitor::after{
+    content: "Account";
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    font-size: 22px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+.monitor:hover::after{
+    width: 100px;
+    left: 55px;
+    z-index: 1;
+}
+.monitor:hover{
+    background-color: #2785F7;
+}
+.users{
+    margin: 10px 20px;
+    width: 67px;
+    height: 62px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.users::after{
+    content: "Groups";
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    font-size: 22px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+.users:hover::after{
+    width: 100px;
+    left: 55px;
+    z-index: 1;
+}
+.users:hover{
+    background-color: #2785F7;
+}
+.cloud{
+    margin: 10px 20px;
+    width: 67px;
+    height: 62px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.cloud::after{
+    content: "Cloud";
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    font-size: 22px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+.cloud:hover::after{
+    width: 100px;
+    left: 55px;
+    z-index: 1;
+}
+.cloud:hover{
+    background-color: #2785F7;
+}
+.cog{
+    margin: 0 34.35px 53.61px 35.75px;
+}
+.cog{
+    margin: 10px 20px;
+    width: 67px;
+    height: 62px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.cog::after{
+    content: "Setting";
+    color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    font-size: 22px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    width: 0px;
+    height: 62px;
+    background-color: #2785F7;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+.cog:hover::after{
+    width: 100px;
+    left: 55px;
+    z-index: 1;
+}
+.cog:hover{
+    background-color: #2785F7;
+}
+.svg{
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-bottom: 9px;
+}
+.folder-w{
+    fill:white;
+}
+.svg:hover{
+    fill:white;
+}
